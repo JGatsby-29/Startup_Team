@@ -14,14 +14,16 @@
         android:layout_gravity="center"
         android:layout_margin="10dp">
 
-        <ImageView
-            android:id="@+id/imageView_logo"
+        <ImageButton
+            android:id="@+id/button_create"
             android:layout_width="76dp"
             android:layout_height="67dp"
             android:layout_weight="1"
             android:adjustViewBounds="true"
             android:layout_marginRight="100dp"
-            android:src="@drawable/home_profile" />
+            android:scaleType="fitCenter"
+            android:background="@android:color/transparent"
+            android:src="@drawable/icon_join" />
 
         <ImageView
             android:id="@+id/title_team"

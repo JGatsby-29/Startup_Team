@@ -23,6 +23,17 @@
         <entry key="..\:/exapp/Ex_fragment/app/src/main/res/menu/menu_bottom.xml" value="0.20208333333333334" />
         <entry key="..\:/exapp/Startup_Team/app/src/main/res/drawable/ic_launcher_background.xml" value="0.378125" />
         <entry key="..\:/exapp/Startup_Team/app/src/main/res/drawable/icon_logo_white_background.xml" value="0.378125" />
+        <entry key="..\:/exapp/Startup_Team/app/src/main/res/layout/activity_main.xml" value="0.20208333333333334" />
+        <entry key="..\:/exapp/Startup_Team/app/src/main/res/layout/fragment__profile.xml" value="0.3619791666666667" />
+        <entry key="..\:/exapp/Startup_Team/app/src/main/res/layout/fragment_challenge.xml" value="0.20208333333333334" />
+        <entry key="..\:/exapp/Startup_Team/app/src/main/res/layout/fragment_challenge_party.xml" value="0.3619791666666667" />
+        <entry key="..\:/exapp/Startup_Team/app/src/main/res/layout/fragment_funding.xml" value="0.3619791666666667" />
+        <entry key="..\:/exapp/Startup_Team/app/src/main/res/layout/fragment_gallery.xml" value="0.3619791666666667" />
+        <entry key="..\:/exapp/Startup_Team/app/src/main/res/layout/fragment_home.xml" value="0.33" />
+        <entry key="..\:/exapp/Startup_Team/app/src/main/res/layout/fragment_profile.xml" value="0.3265993265993266" />
+        <entry key="..\:/exapp/Startup_Team/app/src/main/res/layout/fragment_team.xml" value="0.3619791666666667" />
+        <entry key="..\:/exapp/Startup_Team/app/src/main/res/layout/fragment_team_create.xml" value="0.3619791666666667" />
+        <entry key="..\:/exapp/Startup_Team/app/src/main/res/layout/fragment_team_team.xml" value="0.3619791666666667" />
         <entry key="..\:/exapp/Startup_Team/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.378125" />
         <entry key="..\:/exapp/Startup_Team/app/src/main/res/mipmap-anydpi-v26/icon_logo_white.xml" value="0.378125" />
         <entry key="..\:/exapp/Startup_Team/app/src/main/res/mipmap-anydpi-v26/icon_logo_white_round.xml" value="0.21822916666666667" />

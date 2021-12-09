@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
     Fragment_challenge fragment_challenge;
     Fragment_gallery fragment_gallery;
     Fragment_funding fragment_funding;
+    Fragment_profile fragment_profile;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
         fragment_challenge = new Fragment_challenge();
         fragment_gallery = new Fragment_gallery();
         fragment_funding = new Fragment_funding();
+        fragment_profile = new Fragment_profile();
 
         getSupportFragmentManager().beginTransaction().replace(R.id.container, fragment_home).commit();
 
@@ -70,5 +72,6 @@ public class MainActivity extends AppCompatActivity {
                 return false;
             }
         });
+
     }
 }

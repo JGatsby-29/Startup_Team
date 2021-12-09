@@ -20,15 +20,17 @@
             android:layout_weight="1"
             android:src="@drawable/home_logo" />
 
-        <ImageView
-            android:id="@+id/imageView_profile"
-            android:layout_width="wrap_content"
-            android:layout_height="53dp"
+        <ImageButton
+            android:id="@+id/Button_profile"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
             android:layout_gravity="center"
             android:layout_marginLeft="200dp"
             android:layout_weight="1"
             android:adjustViewBounds="true"
-            android:src="@drawable/home_profile" />
+            android:scaleType="fitCenter"
+            android:src="@drawable/home_profile"
+            android:background="@android:color/transparent" />
     </LinearLayout>
 
     <ScrollView
