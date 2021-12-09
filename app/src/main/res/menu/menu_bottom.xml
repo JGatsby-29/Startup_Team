@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/tab_home"
+        android:enabled="true"
+        android:icon="@drawable/icon_home"
+        android:title="홈"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/tab_team"
+        android:icon="@drawable/icon_team"
+        android:title="원정대"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/tab_challenge"
+        android:enabled="true"
+        android:icon="@drawable/icon_challenge"
+        android:title="챌린지"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/tab_gallery"
+        android:enabled="true"
+        android:icon="@drawable/icon_gallery"
+        android:title="갤러리"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/tab_funding"
+        android:enabled="true"
+        android:icon="@drawable/icon_funding"
+        android:title="펀딩"
+        app:showAsAction="ifRoom" />
+
+
+
+</menu>
