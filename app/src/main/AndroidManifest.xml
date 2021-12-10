@@ -10,7 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Ex_fragment">
         <activity
-            android:name="com.example.StartUp_Team.MainActivity"
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OnboardingActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

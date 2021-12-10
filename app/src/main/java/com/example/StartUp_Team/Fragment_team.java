@@ -19,7 +19,6 @@ public class Fragment_team extends Fragment {
     Fragment_team_member fragment_team_member;
     Fragment_team_create fragment_team_create;
 
-
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view =  inflater.inflate(R.layout.fragment_team, container, false);
