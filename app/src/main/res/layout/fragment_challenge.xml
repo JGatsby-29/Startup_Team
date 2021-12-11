@@ -46,7 +46,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -64,7 +63,6 @@
                 android:background="#48FFFFFF">
             </com.google.android.material.tabs.TabLayout>
 
-
             <androidx.viewpager.widget.ViewPager
                 android:id="@+id/viewPager"
                 android:layout_width="match_parent"
@@ -72,7 +70,6 @@
                 android:background="#48EFEEEE">
 
             </androidx.viewpager.widget.ViewPager>
-
 
         </LinearLayout>
     </ScrollView>
