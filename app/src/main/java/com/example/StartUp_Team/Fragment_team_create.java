@@ -11,6 +11,11 @@ import android.widget.ImageButton;
 
 public class Fragment_team_create extends Fragment {
 
+    // 각각의 Fragment마다 Instance를 반환해 줄 메소드를 생성
+    public static Fragment_team_create newInstance() {
+        return new Fragment_team_create();
+    }
+
     Fragment_team fragment_team;
     Fragment_team_create_recommend fragment_team_create_recommend;
 

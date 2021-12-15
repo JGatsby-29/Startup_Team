@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -6,7 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/white"
-    tools:context=".Fragment_team">
+    tools:context=".Fragment_challenge">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -42,35 +41,31 @@
             android:src="@drawable/icon_search" />
     </LinearLayout>
 
-    <ScrollView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-        <LinearLayout
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tablayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#48FFFFFF"
+            app:tabIndicatorColor="#000000"
+            app:tabIndicatorHeight="3dp"
+            app:tabSelectedTextColor="@color/black"
+            app:tabTextAppearance="@android:style/TextAppearance.Widget.TabWidget"
+            app:tabTextColor="#F2717171">
+
+        </com.google.android.material.tabs.TabLayout>
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/viewPager"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical">
+            android:layout_weight="1"
+            android:background="#48EFEEEE">
+        </androidx.viewpager2.widget.ViewPager2>
 
-            <com.google.android.material.tabs.TabLayout
-                android:id="@+id/tablayout"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                app:tabIndicatorColor="#000000"
-                app:tabIndicatorHeight="3dp"
-                app:tabTextColor="#F2717171"
-                app:tabSelectedTextColor="@color/black"
-                app:tabTextAppearance="@android:style/TextAppearance.Widget.TabWidget"
-                android:background="#48FFFFFF">
-            </com.google.android.material.tabs.TabLayout>
-
-            <androidx.viewpager.widget.ViewPager
-                android:id="@+id/viewPager"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="#48EFEEEE">
-
-            </androidx.viewpager.widget.ViewPager>
-
-        </LinearLayout>
-    </ScrollView>
+    </LinearLayout>
 </LinearLayout>

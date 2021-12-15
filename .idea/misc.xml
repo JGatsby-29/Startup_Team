@@ -23,10 +23,13 @@
         <entry key="..\:/exapp/Ex_fragment/app/src/main/res/menu/menu_bottom.xml" value="0.20208333333333334" />
         <entry key="..\:/exapp/Startup_Team/app/src/main/res/drawable/ic_launcher_background.xml" value="0.378125" />
         <entry key="..\:/exapp/Startup_Team/app/src/main/res/drawable/icon_logo_white_background.xml" value="0.378125" />
+        <entry key="..\:/exapp/Startup_Team/app/src/main/res/font/noto_sans.xml" value="0.3921875" />
         <entry key="..\:/exapp/Startup_Team/app/src/main/res/layout/activity_main.xml" value="0.20208333333333334" />
         <entry key="..\:/exapp/Startup_Team/app/src/main/res/layout/activity_onboarding.xml" value="0.3619791666666667" />
         <entry key="..\:/exapp/Startup_Team/app/src/main/res/layout/fragment__profile.xml" value="0.3619791666666667" />
         <entry key="..\:/exapp/Startup_Team/app/src/main/res/layout/fragment_challenge.xml" value="0.33" />
+        <entry key="..\:/exapp/Startup_Team/app/src/main/res/layout/fragment_challenge_list.xml" value="0.3619791666666667" />
+        <entry key="..\:/exapp/Startup_Team/app/src/main/res/layout/fragment_challenge_member.xml" value="0.3619791666666667" />
         <entry key="..\:/exapp/Startup_Team/app/src/main/res/layout/fragment_challenge_party.xml" value="0.3619791666666667" />
         <entry key="..\:/exapp/Startup_Team/app/src/main/res/layout/fragment_funding.xml" value="0.3619791666666667" />
         <entry key="..\:/exapp/Startup_Team/app/src/main/res/layout/fragment_gallery.xml" value="0.21306974190005493" />
@@ -34,7 +37,7 @@
         <entry key="..\:/exapp/Startup_Team/app/src/main/res/layout/fragment_home.xml" value="0.33" />
         <entry key="..\:/exapp/Startup_Team/app/src/main/res/layout/fragment_profile.xml" value="0.3265993265993266" />
         <entry key="..\:/exapp/Startup_Team/app/src/main/res/layout/fragment_team.xml" value="0.3619791666666667" />
-        <entry key="..\:/exapp/Startup_Team/app/src/main/res/layout/fragment_team_create.xml" value="0.3619791666666667" />
+        <entry key="..\:/exapp/Startup_Team/app/src/main/res/layout/fragment_team_create.xml" value="0.3180327868852459" />
         <entry key="..\:/exapp/Startup_Team/app/src/main/res/layout/fragment_team_create_mentor.xml" value="0.3619791666666667" />
         <entry key="..\:/exapp/Startup_Team/app/src/main/res/layout/fragment_team_create_message.xml" value="0.3619791666666667" />
         <entry key="..\:/exapp/Startup_Team/app/src/main/res/layout/fragment_team_create_quest.xml" value="0.3619791666666667" />
